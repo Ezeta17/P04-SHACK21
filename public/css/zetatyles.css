@@ -9,13 +9,33 @@
   * v0.1 – Primera versión  
   */
 
-      /* MATERIAL DESIGN PALETTE */
-      .Color_Primary  { background: #3F51B5; }  /* INDIGO: 500; */
-      .Color_Accent   { background: #4CAF50; }  /* GREEN 500;   */ 
-      .Primary_Dark   { background: #303F9F; }  /* INDIGO: 700; */
-      .Primary_Light  { background: #C5CAE9; }  /* INDIGO: 100; */
-      .Text_Color     { color: #FFFFFF; }       /* WHITE;       */
-      .Text_Primary   { color: #212121; }       /* GREY: 900;   */
-      .Text_Secundary { color: #757575; }       /* GREY: 600;   */
-      .Divider_Color  { border-color: #BDBDBD } /* GREY: 400;   */
-      
+/* MATERIAL DESIGN PALETTE */
+.Color_Primary  { background: #3F51B5; }  /* INDIGO: 500; */
+.Color_Accent   { background: #4CAF50; }  /* GREEN 500;   */ 
+.Primary_Dark   { background: #303F9F; }  /* INDIGO: 700; */
+.Primary_Light  { background: #C5CAE9; }  /* INDIGO: 100; */
+.Text_Color     { color: #FFFFFF; }       /* WHITE;       */
+.Text_Primary   { color: #212121; }       /* GREY: 900;   */
+.Text_Secundary { color: #757575; }       /* GREY: 600;   */
+.Divider_Color  { border-color: #BDBDBD } /* GREY: 400;   */
+
+
+.vista {
+  background-color: rgba(86,61,124,0.15);
+  border: 1px solid rgba(145, 145, 145, 0.15);
+  /*padding: .5rem!important;*/
+}
+
+.player{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.zcard{
+  /* background: white;
+  border: solid 1px gray; */
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px;
+}

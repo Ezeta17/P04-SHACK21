@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
 <!--
   * Reto XX - SummerHack 2021
 
@@ -9,11 +11,9 @@
   * History:
   * v0.1 – Primera versión 
 -->
-<html lang="es">
-<head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Reto XX - SummerHack 2021</title>
   <link rel="icon" href="../public/ico/favicon.ico" type="image/ico">
 
@@ -41,61 +41,57 @@
   <meta property="twitter:type" content="article">
   <meta property="twitter:url" content="http://ZetaLabs.net.ar/">
   <!-- /Twitter Open Graph -->
-
+  
   <!-- CSS -->
-  <link href="../public/css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="../public/css/fontawesome.css" rel="stylesheet" type="text/css">
-  <link href="../public/css/brands.css" rel="stylesheet" type="text/css">
-  <link href="../public/css/solid.css" rel="stylesheet" type="text/css">
-  <link href="../public/css/zetatyles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../public/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/fontawesome.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/brands.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/solid.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/celular.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/zetatyles.css" type="text/css">
   <style>
-    .vista {
-      background-color: rgba(86,61,124,0.15);
-      border: 1px solid rgba(86,61,124,0.15);
-      /*padding: .5rem!important;*/
-    }
-
   </style>
   <!-- /CSS -->
+
 </head>
 <body>
+  <section class="container_mobile">
+    <div class="box_up">
+      <span class="camara"></span>
+      <span class="circles"></span>
+      <span class="audio_up"></span>
+    </div>
+    <div class="screen Color_Primary">
 
-  <div class="container vista">
-    <section class="">
-
-        <!-- <img id='loading-img'class="off" src="https://i.pinimg.com/originals/90/2e/b1/902eb16546985bbc3b42628ee6bffdfe.png" alt=""> -->
-        <div class="vista row">
-          <div class="col-sm">
-            <h1 class="bienvenida">dxsss</h1>
-            <form action="">
-                <input id="pyr01" type="text" placeholder="Jugador 1">
-                <input id="pyr02" type="text" placeholder="Jugador 2">
-            </form>
-            <button id="start">jugar</button>
-            <button id="saves" class="off">replay</button>
-          </div>
+      <section class="players">
+        <div class="zcard ">
+          <h3 class="Text_Color">
+            Vamos a Jugar <br>
+            <small class="text-muted">Ingresa los nombre de los jugadores</small>
+          </h3>
+          <form action="">
+              <input id="pyr01" type="text" placeholder="Jugador 1">
+              <input id="pyr02" type="text" placeholder="Jugador 2">
+          </form>
+          <button id="start">jugar</button>
+          <button id="saves" class="off">replay</button>
         </div>
 
-        <div class="row vista">
-          <div class="col-sm">
-            <div id="close-guardada"><i class="fas fa-chevron-down"></i></div>
-            <h2>Partidas guardadas</h2>
-            <ul id="lista-guardadas">
-            
-            </ul>
-          </div>
-        </div>
-    </section>
-    
-    <section class="cartas">
+      </section>
+      
+      <section class="cartas">
 
-    </section>
+      </section>
 
-    <section class="resultados">
+      <section class="resultados">
 
-    </section>
-  </div>
+      </section>
 
+    </div>
+    <div class="buttons_down">
+      <span class="btn_home"></span>
+    </div>
+  </section>
 
   <!-- JS - jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
